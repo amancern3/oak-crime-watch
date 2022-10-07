@@ -1,0 +1,22 @@
+IDEA : OAK CRIME WATCH 
+            + 
+       OAK WEATHER REPORT 
+            + 
+       WHATS HAPPENING THIS WEEK 
+
+    Call the website 'THE DUMP' 
+    Can release it in bits
+
+ == Sep 22, 2022 == 
+
+ Set up express app, added js file to do jquery
+ Single webpage layout of crime map + weather + whats happening 
+
+
+== Oct 6, 2022 == 
+
+- added python shell as workaround to spawning py process
+- retrieved first 2k/20k (?) hits from open oak dataset
+
+- limit to (X), group by location 
+ 
