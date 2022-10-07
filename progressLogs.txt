@@ -19,4 +19,6 @@ IDEA : OAK CRIME WATCH
 - retrieved first 2k/20k (?) hits from open oak dataset
 
 - limit to (X), group by location 
- 
+
+TO DO: 
+- Ask for location -> based on location get data -> relay graphs 
