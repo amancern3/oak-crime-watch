@@ -22,3 +22,10 @@ IDEA : OAK CRIME WATCH
 
 TO DO: 
 - Ask for location -> based on location get data -> relay graphs 
+
+
+== Oct 10, 2022 == 
+
+- Got location -> on location get clusters, get data 
+               -> relay to gmaps & gclusters
+               
