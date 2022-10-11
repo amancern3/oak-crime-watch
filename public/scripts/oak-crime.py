@@ -6,7 +6,7 @@ from sodapy import Socrata
 
 
 #init env sys vars
-def init_env(file, vars):
+def _init_env(file, vars):
     load_dotenv(file)
     if vars is not None:
         for env in vars:
@@ -16,7 +16,7 @@ def init_env(file, vars):
 
 
 path = "/Users/bitterfq/oak-crime-watch/.env"
-init_env(path, ['API_KEY_ID', 'API_KEY_SECRET',
+_init_env(path, ['API_KEY_ID', 'API_KEY_SECRET',
           'APP_TOKEN', 'APP_SECRET_TOKEN', 'USER_NAME', 'PASSWRD'])
 
 # authenticated client :
