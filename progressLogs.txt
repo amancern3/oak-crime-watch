@@ -28,4 +28,24 @@ TO DO:
 
 - Got location -> on location get clusters, get data 
                -> relay to gmaps & gclusters
+
+
+== Oct 12, 2022 == 
+
+- added google-map mixin 
+- need to fix abs & local dir bug  -> fixed; bug was whitespace in dir name
+
+to do: 
+     - render map [done]
+     - render map location [done]
+     - map cluster 
+
+     Map Cluster: 
+          - GET LAST WEEK DATA ONLY -> TRIM DATASET 
+          - GET BY PROXIMITY
+
+          - TRIM DATASET BY RECENCY + PROXIMITY
+
+
+
                

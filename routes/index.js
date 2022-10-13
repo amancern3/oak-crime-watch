@@ -32,7 +32,6 @@ router.use(function (req, res) {
   console.log("YOUR IP %j", process.env.IP);
   var geo = geoIP.lookup(process.env.IP);
   console.log("[LOCATION] - %j" , geo);
-  
 })
 
 
