@@ -3,3 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+block map
+  include /mixins/google-map
+  +google-map-place("1450 Alice St, Oakland", "AIzaSyCP-eJaSgXrmBJr4z8_gjbbCrP1Hd0maZw")
