@@ -34,5 +34,12 @@ router.use(function (req, res) {
   console.log("[LOCATION] - %j" , geo);
 })
 
+/*
+//middleware export env variables
+app.use(function(req, res, next) {
+  res.locals.app = app; 
+  next();
+});
+*/
 
 module.exports = router;
