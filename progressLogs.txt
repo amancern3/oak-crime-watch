@@ -58,4 +58,8 @@ TO DO:
           - TRIM DATASET USING py
           - TRIM DATASET BY RECENY + PROXIMITY 
      
-               
+     WORKFLOW: 
+     -> ENCODE PERSONAL INFO TO .env -> need diff auths (?) [ONLY OAK BASED]
+     -> QUERY DATASET ON INFO (?)  
+     -> TRIM DATASET ON CRITERIA 
+     -> RENDER MAP 
