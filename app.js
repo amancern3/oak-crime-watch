@@ -6,12 +6,13 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-//var mapsRouter = require('./public/javascripts/maps.js')
 var app = express();
+
+//set some local var exports for static templates
+app.locals.env = process.env;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-//app.locals.basedir = path.join(__dirname, 'views');
 app.locals.basedir = app.get('views');
 app.set('view engine', 'pug');
 
@@ -23,7 +24,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-//app.use('/', mapsRouter )
 
 // run geoIP services 
 require('dotenv').config();
