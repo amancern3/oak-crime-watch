@@ -64,3 +64,9 @@ TO DO:
      -> TRIM DATASET ON CRITERIA 
      -> RENDER MAP 
 
+
+== Oct 26, 2022 == 
+
+- catching up to changes. Stashing everything to this branch 
+& will create new branch to lite code
+
