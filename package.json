@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.0.11",
+    "all": "^0.0.0",
     "auto-sni": "^2.3.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -17,8 +18,11 @@
     "jsdom": "^20.0.0",
     "le-acme-core": "^2.1.4",
     "morgan": "~1.9.1",
+    "osm-static-maps": "^3.10.3",
     "pug": "^3.0.2",
+    "puppeteer": "^19.0.0",
     "python-shell": "^3.0.1",
-    "soda-js": "^0.2.1"
+    "soda-js": "^0.2.1",
+    "static-google-map": "^0.0.5"
   }
 }

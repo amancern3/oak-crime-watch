@@ -6,4 +6,4 @@ block content
 
 block map
   include /mixins/google-map
-  +google-map-place("1450 Alice St, Oakland", "AIzaSyCP-eJaSgXrmBJr4z8_gjbbCrP1Hd0maZw")
+  +google-map-place(process.env.LOCATION, process.env.GOOGLE_MAPS_API_KEY)

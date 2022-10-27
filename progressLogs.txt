@@ -38,14 +38,35 @@ TO DO:
 to do: 
      - render map [done]
      - render map location [done]
-     - map cluster 
+     - map cluster [In progress]
 
-     Map Cluster: 
+     Map Cluster: -> [NEXT]
           - GET LAST WEEK DATA ONLY -> TRIM DATASET 
           - GET BY PROXIMITY
 
           - TRIM DATASET BY RECENCY + PROXIMITY
+     
+
+== Oct 14, 2022 == 
+
+- passed env vars to pug -> static clustering for map close
+
+TO DO: 
+
+     - RENDER SIMPLE CLUSTER ON MAP  [IN PROGRESS]
+     - MAP CLUSTERING: [NEXT]
+          - TRIM DATASET USING py
+          - TRIM DATASET BY RECENY + PROXIMITY 
+     
+     WORKFLOW: 
+     -> ENCODE PERSONAL INFO TO .env -> need diff auths (?) [ONLY OAK BASED]
+     -> QUERY DATASET ON INFO (?)  
+     -> TRIM DATASET ON CRITERIA 
+     -> RENDER MAP 
 
 
+== Oct 26, 2022 == 
 
-               
+- catching up to changes. Stashing everything to this branch 
+& will create new branch to lite code
+
