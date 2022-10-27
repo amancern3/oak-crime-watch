@@ -2,6 +2,9 @@ var express = require('express');
 var router = express.Router();
 var geoIP = require('geoip-lite');
 
+var baseUrl = require('../public/javascripts/build-url.js');
+var signUrl = require('../public/javascripts/url-signing');
+
 const app = require('../app');
 const { PythonShell } = require('python-shell');
 
@@ -23,15 +26,24 @@ router.get('/', function (req, res, next) {
     // results is an array consisting of messages collected during execution
     console.log('[SUCCESS] - PROCESSS ENDED %j', results);
   });
-
+  
 });
 
 //use location services
 router.use(function (req, res) {
   console.log("LOCATING USER....");
   console.log("YOUR IP %j", process.env.IP);
-  var geo = geoIP.lookup(process.env.IP);
+  
+  //var geo = geoIP.lookup(process.env.IP);
+  var geo = geoIP.pretty(process.env.IP);
+  
   console.log("[LOCATION] - %j" , geo);
+  
+  process.env.ll = geo.ll;
+
+  var baseUrl = baseUrl.osmWrapper();
+  console.log("RETURNED");
+ // var baseUrl = staticMapUrl();
 })
 
 /*
